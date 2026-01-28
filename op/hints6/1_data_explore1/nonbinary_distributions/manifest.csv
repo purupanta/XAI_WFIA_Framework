@@ -1,0 +1,9 @@
+column,label,type,csv_path
+Number of Doctor Visits,Participants with Number of Doctor Visits,hist_integer_like,op/1_data_explore1/nonbinary_distributions/Number_of_Doctor_Visits.csv
+Average Sleep (hrs/night),Average Sleep (hrs/night),hist_integer_like,op/1_data_explore1/nonbinary_distributions/Average_Sleep__hrs_night.csv
+Avg Daily Sitting Time,Avg Daily Sitting Time,hist_integer_like,op/1_data_explore1/nonbinary_distributions/Avg_Daily_Sitting_Time.csv
+Age (Yrs),Participants with Age (Yrs),hist_integer_like,op/1_data_explore1/nonbinary_distributions/Age__Yrs.csv
+Body Mass Index,Participants with Body Mass Index,hist_continuous,op/1_data_explore1/nonbinary_distributions/Body_Mass_Index.csv
+PHQ-4 (Anxiety/Depression Score),Participants with PHQ-4 (Anxiety/Depression Score),hist_integer_like,op/1_data_explore1/nonbinary_distributions/PHQ-4__Anxiety_Depression_Score.csv
+Moderate Exercise Minutes/Week,Participants with Moderate Exercise Minutes/Week,hist_minutes,op/1_data_explore1/nonbinary_distributions/Moderate_Exercise_Minutes_Week.csv
+Average Drinks/Week,Participants with Average Drinks/Week,hist_drinks_int,op/1_data_explore1/nonbinary_distributions/Average_Drinks_Week.csv

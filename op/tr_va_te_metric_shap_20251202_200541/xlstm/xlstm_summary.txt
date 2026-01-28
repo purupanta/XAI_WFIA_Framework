@@ -1,0 +1,10 @@
+XLSTM hyperparams & run summary:
+hidden_dim=64
+num_layers=2
+dropout=0.2
+lr=0.001
+batch_size(final)=256
+max_epochs=120
+patience=30
+device_final=cpu
+best_threshold=0.150

@@ -1,0 +1,19 @@
+Best threshold (optimized on F1 using positive-class F1): 0.10
+
+Validation metrics (calibrated, threshold = 0.10):
+  Accuracy       : 0.643
+  AUC-ROC        : 0.740
+  AUC-PR         : 0.203
+  Brier          : 0.0783
+  MCC            : 0.242
+  F1 (macro_avg) : 0.526
+
+Classification Report (Validation):
+              precision    recall  f1-score   support
+
+     Class 0       0.97      0.63      0.76       882
+     Class 1       0.18      0.78      0.29        91
+
+    accuracy                           0.64       973
+   macro avg       0.57      0.70      0.53       973
+weighted avg       0.89      0.64      0.72       973

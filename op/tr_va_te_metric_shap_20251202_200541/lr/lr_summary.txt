@@ -1,0 +1,2 @@
+best_C=10.0
+best_threshold=0.150

@@ -1,0 +1,4 @@
+Stage,X_rows,X_cols,y_len,class0_count,class0_pct,class1_count,class1_pct
+Train,5271,26,5271,2647,50.22,2624,49.78
+Validation,973,26,973,882,90.65,91,9.35
+Test,973,26,973,883,90.75,90,9.25

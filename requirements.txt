@@ -1,0 +1,47 @@
+# Core (needed for `jupytext --set-formats ...`)
+jupytext>=1.16
+
+# Helpful runtime deps
+nbformat>=5.9
+nbconvert>=7.10
+ipykernel>=6.29
+
+# If you’ll open notebooks in a browser (optional)
+jupyterlab>=4.2
+
+# For importing .ipynb as modules
+import-ipynb
+
+# Data stack
+pandas>=2.2
+numpy>=1.26
+scipy>=1.11
+
+# Plotting
+matplotlib>=3.8
+seaborn>=0.13
+
+# ML
+scikit-learn>=1.5
+imbalanced-learn>=0.12    # for ADASYN/SMOTE/SMOTEENN; works with sklearn>=1.2+
+xgboost>=2.0
+catboost>=1.2
+shap>=0.43                 # SHAP values (model explainability)
+
+# Deep tabular models
+pytorch-tabnet>=4.1.0
+tabpfn>=0.1.10
+
+# PyTorch runtime for the above (choose builds appropriate to your platform/CUDA)
+# If you have trouble with these generic wheels, follow PyTorch's install selector and pin versions accordingly.
+torch>=2.2
+torchvision>=0.17
+
+# (Optional) nicer console tables for summaries
+tabulate>=0.9
+
+# Monitoring (optional)
+nvidia-ml-py3
+
+# Fast CPU acceleration for some sklearn algos (optional; enable at runtime)
+scikit-learn-intelex

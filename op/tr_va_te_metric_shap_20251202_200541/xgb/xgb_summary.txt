@@ -1,0 +1,3 @@
+best_params: n_estimators=600, learning_rate=0.03, max_depth=8, min_child_weight=3.0, subsample=0.8, colsample_bytree=0.9, reg_lambda=1.0
+best_iteration=160
+best_threshold=0.150

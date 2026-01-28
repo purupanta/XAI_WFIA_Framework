@@ -1,0 +1,2 @@
+best_params: n_estimators=600, max_depth=None, min_samples_leaf=1
+best_threshold=0.100

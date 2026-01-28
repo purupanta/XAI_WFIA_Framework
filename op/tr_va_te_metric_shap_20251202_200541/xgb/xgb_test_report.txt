@@ -1,0 +1,19 @@
+Best threshold (same as VAL): 0.15
+
+Test metrics (calibrated, threshold = 0.15):
+  Accuracy       : 0.791
+  AUC-ROC        : 0.766
+  AUC-PR         : 0.252
+  Brier          : 0.0756
+  MCC            : 0.266
+  F1 (macro_avg) : 0.605
+
+Classification Report (Test):
+              precision    recall  f1-score   support
+
+     Class 0       0.95      0.81      0.88       883
+     Class 1       0.24      0.57      0.33        90
+
+    accuracy                           0.79       973
+   macro avg       0.59      0.69      0.61       973
+weighted avg       0.88      0.79      0.83       973

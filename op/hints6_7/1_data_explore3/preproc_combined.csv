@@ -1,0 +1,11 @@
+Block,Stage,X_rows,X_cols,y_len,class0_count,class0_pct,class1_count,class1_pct
+1) Original,Complete dataset,10581,25,10581,9573,90.47,1008,9.53
+2) After Split,Train,6348,25,6348,5743,90.47,605,9.53
+2) After Split,Validation,2116,25,2116,1915,90.5,201,9.5
+2) After Split,Test,2117,25,2117,1915,90.46,202,9.54
+3) After Balance,Train,11494,25,11494,5743,49.97,5751,50.03
+3) After Balance,Validation,2116,25,2116,1915,90.5,201,9.5
+3) After Balance,Test,2117,25,2117,1915,90.46,202,9.54
+4) After Scale,Train,11494,25,11494,5743,49.97,5751,50.03
+4) After Scale,Validation,2116,25,2116,1915,90.5,201,9.5
+4) After Scale,Test,2117,25,2117,1915,90.46,202,9.54
